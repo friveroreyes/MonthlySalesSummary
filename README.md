@@ -5,3 +5,4 @@ SELECT date_trunc('month', order_date) AS month,
 FROM orders
 GROUP BY month
 ORDER BY month ASC;
+
